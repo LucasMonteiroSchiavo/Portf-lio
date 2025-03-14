@@ -1,0 +1,75 @@
+/* não entendi direito o que faz mas parece que é necessário */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* deixando o corpo de tudo em arial */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #04200d; /* fundo da minha cor */
+    color: #000000; /* cor das minhas escritas */
+    font-style: italic; /* texto em italico */
+}
+
+/* estilo da borda de cima */
+header {
+    background-color: #003115; /* cor do banner */
+    color: #000000; /* cor dos titulos */
+    padding: 30px 0;
+    text-align: center; /* alinhando no centro */
+    border-top: 5px solid #0031152; /* mexer como se fosse uma bordinha superior pra visual */
+}
+
+/* Estilo do título (h1, h2) */
+h1, h2 {
+    font-weight: bold; /* Título em negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave no título */
+}
+
+/* Estilo do menu de navegação */
+.navbar {
+    list-style: none; /* Remove os marcadores */
+    display: flex; /* Organiza os itens lado a lado */
+    justify-content: center; /* Alinha os itens ao centro */
+}
+
+.navbar li {
+    margin: 0 20px; /* Espaçamento entre os itens */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #fff; /* Cor inicial do link */
+    font-size: 18px;
+    transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+.navbar a:hover {
+    color: #8e44ad; /* Cor roxa quando passar o mouse */
+}
+
+/* Estilo das seções */
+section {
+    background-color: #ffffff; /* Fundo branco nas seções */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Seção de Início com fundo diferente */
+#Inicio {
+    background-color: #dfe6e9; /* Cor suave de azul para a seção Início */
+}
+
+/* Seção Sobre com fundo diferente */
+#Sobre {
+    background-color: #ffffff; /* Cor amarela suave para a seção Sobre */
+}
+
+/* Seção Contato com fundo diferente */
+#Contato {
+    background-color: #ffffff; /* Cor verde suave para a seção Contato */
+}
