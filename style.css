@@ -1,75 +1,113 @@
-/* não entendi direito o que faz mas parece que é necessário */
+/* Resetando margens e paddings padrão */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* deixando o corpo de tudo em arial */
+/* Estilizando o corpo da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #04200d; /* fundo da minha cor */
-    color: #000000; /* cor das minhas escritas */
-    font-style: italic; /* texto em italico */
+    background-color: #3E2723; /* Tom de chocolate escuro */
+    color: #FAEBD7; /* Cor das fontes mais suave para contraste */
+    font-style: normal;
+    padding: 20px;
 }
 
-/* estilo da borda de cima */
+/* Cabeçalho estilizado */
 header {
-    background-color: #003115; /* cor do banner */
-    color: #000000; /* cor dos titulos */
-    padding: 30px 0;
-    text-align: center; /* alinhando no centro */
-    border-top: 5px solid #0031152; /* mexer como se fosse uma bordinha superior pra visual */
+    background-color: #5D4037; /* Chocolate médio */
+    color: #FFF8E1;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
-/* Estilo do título (h1, h2) */
+/* Estilo do título principal */
 h1, h2 {
-    font-weight: bold; /* Título em negrito */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave no título */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilo do menu de navegação */
 .navbar {
-    list-style: none; /* Remove os marcadores */
-    display: flex; /* Organiza os itens lado a lado */
-    justify-content: center; /* Alinha os itens ao centro */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #4E342E; /* Fundo chocolate escuro */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .navbar li {
-    margin: 0 20px; /* Espaçamento entre os itens */
+    margin: 0 15px;
 }
 
 .navbar a {
-    text-decoration: none; /* Remove o sublinhado */
-    color: #fff; /* Cor inicial do link */
+    text-decoration: none;
+    color: #FFF8E1;
     font-size: 18px;
-    transition: color 0.3s ease; /* Transição suave para a cor */
+    transition: color 0.3s ease, transform 0.2s;
 }
 
 .navbar a:hover {
-    color: #8e44ad; /* Cor roxa quando passar o mouse */
+    color: #D7CCC8;
+    transform: scale(1.1);
 }
 
 /* Estilo das seções */
 section {
-    background-color: #ffffff; /* Fundo branco nas seções */
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #6D4C41; /* Tom de chocolate mais quente */
+    padding: 25px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    color: #FFF8E1;
 }
 
-/* Seção de Início com fundo diferente */
+/* Seção Início */
 #Inicio {
-    background-color: #dfe6e9; /* Cor suave de azul para a seção Início */
+    background-color: #795548; /* Chocolate médio */
 }
 
-/* Seção Sobre com fundo diferente */
+/* Seção Sobre */
 #Sobre {
-    background-color: #ffffff; /* Cor amarela suave para a seção Sobre */
+    background-color: #8D6E63; /* Chocolate mais claro */
+    padding-bottom: 40px;
+    position: relative;
+    border-bottom: 5px solid #FFF8E1; /* Bordinha abaixo do texto */
 }
 
-/* Seção Contato com fundo diferente */
+/* Seção Contato */
 #Contato {
-    background-color: #ffffff; /* Cor verde suave para a seção Contato */
+    background-color: #A1887F; /* Chocolate suave */
+}
+
+/* Rodapé */
+footer {
+    background-color: #4E342E;
+    text-align: center;
+    padding: 15px;
+    color: #FFF8E1;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo das habilidades */
+.habilidades {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #5D4037; /* Tom de chocolate médio */
+    border-left: 5px solid #FFF8E1;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
